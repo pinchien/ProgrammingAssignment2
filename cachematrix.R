@@ -4,6 +4,9 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+## This function first sets the the matrix, then gets the matrix,
+##then sets the inverse of the matrix and finally gets the inverse 
+## of the matrix.
         inv <- NULL
         set <- function(y) {
                 x <<- y
